@@ -11,5 +11,10 @@ This repo is used to manage my Qiita articles.
 
 ## Repo Usage Notes
 
+### Go to Qiita Article
+* `https://qiita.com/{user}/items/{article_id}`
+* My Qiita: `https://qiita.com/ahandsel/items/{article_id}`
+* Example: `https://qiita.com/ahandsel/items/0e8d71aef698a9804944`
+
 ### Reference
 * [Qiitaの記事をGitHubリポジトリで管理する方法 #GitHub - Qiita](https://qiita.com/Qiita/items/32c79014509987541130)
