@@ -4,8 +4,6 @@ tags:
   - 'garoon'
   - 'bookmarklet'
   - 'javascript'
-  - 'apple'
-  - 'ical'
   - 'icalendar'
   - 'english'
 private: false
