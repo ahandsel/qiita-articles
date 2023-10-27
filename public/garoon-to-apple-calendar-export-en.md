@@ -1,14 +1,14 @@
 ---
 title: Import a Garoon Event to Apple Calendar Bookmarklet
 tags:
-  - 'garoon'
-  - 'bookmarklet'
-  - 'javascript'
-  - 'icalendar'
-  - 'english'
+  - JavaScript
+  - bookmarklet
+  - English
+  - garoon
+  - icalendar
 private: false
-updated_at: ''
-id: null
+updated_at: '2023-10-27T17:08:48+09:00'
+id: 0e8d71aef698a9804944
 organization_url_name: null
 slide: false
 ignorePublish: false
