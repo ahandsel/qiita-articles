@@ -1,5 +1,5 @@
 ---
-title: Import a Garoon Event to Apple Calendar Bookmarklet
+title: Export a Garoon Event to Apple Calendar Bookmarklet
 tags:
   - JavaScript
   - bookmarklet
@@ -22,7 +22,7 @@ Copying and pasting event details from Garoon to Apple Calendar is tedious. This
 ## Table of Content <!-- omit in toc -->
 * [Usage](#usage)
   * [Initial Setup](#initial-setup)
-  * [Importing a Garoon Event to Apple Calendar](#importing-a-garoon-event-to-apple-calendar)
+  * [Export a Garoon Event to Apple Calendar](#export-a-garoon-event-to-apple-calendar)
 * [Not working? 🤔](#not-working-)
 * [Garoon\_to\_Apple\_Bookmarklet.js](#garoon_to_apple_bookmarkletjs)
 * [What is a Bookmarklet?](#what-is-a-bookmarklet)
@@ -47,10 +47,11 @@ Copying and pasting event details from Garoon to Apple Calendar is tedious. This
 
 ### Initial Setup
 1. Copy the below `Garoon_to_Apple_Bookmarklet.js` code block
-1. Go to Bookmark manager (`chrome://bookmarks/`) > Click on the `⋮` at the top-right-corner
+1. Enter `@bookmarks` in the Chrome's address bar
+1. Click on the `⋮` at the top-right-corner
 1. Click `Add new bookmark` & paste the code in the URL field
 
-### Importing a Garoon Event to Apple Calendar
+### Export a Garoon Event to Apple Calendar
 1. Go to the Garoon event's page
 1. Click on the bookmarklet
 1. Download the generated iCal file
