@@ -113,7 +113,9 @@ Let's dive into the code and see how it works.
 
 ### Wrap the Code in an IIFE
 
-Since bookmarklets are executed in the global scope, it is a good practice to wrap the code in an [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) to avoid polluting the global scope and specify the language of the code.
+First, JavaScript must be specified as the language of the code.
+
+Then, since bookmarklets are executed in the global scope, it is a good practice to wrap the code in an [IIFE (Immediately Invoked Function Expression)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) to avoid polluting the global scope.
 
 ```javascript
 javascript: (() => {
