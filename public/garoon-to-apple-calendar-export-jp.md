@@ -2,13 +2,13 @@
 title: ガルーン イベントを Apple カレンダーにエクスポートするブックマークレット
 tags:
   - JavaScript
-  - bookmarklet
   - Apple
-  - Garoon
+  - bookmarklet
+  - garoon
   - icalendar
 private: true
-updated_at:
-id:
+updated_at: '2023-11-30T14:06:10+09:00'
+id: 18308ff3a6daad9029a4
 organization_url_name: null
 slide: false
 ignorePublish: false
