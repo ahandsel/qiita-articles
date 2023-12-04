@@ -118,7 +118,7 @@ javascript: (() => {
 
 A bookmarklet is a small piece of JavaScript code that can be stored as a bookmark in a web browser.
 
-When you click on it, the code runs on the current web page, making it easy to extend the browser's functionality.
+When you click on it, the code runs on the current web page, making extending the browser's functionality easy.
 
 
 ## Code Breakdown
