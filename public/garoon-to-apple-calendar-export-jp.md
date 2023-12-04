@@ -14,6 +14,8 @@ slide: false
 ignorePublish: false
 ---
 
+![ガルーンから Apple Calendar へのエクスポートのデモ GIF](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/724593/cfc5ceec-faac-e825-e7c4-c7aab27ef5df.gif)
+
 ガルーン（Garoon）からAppleカレンダーにイベントの詳細をコピペするのは面倒ですよね。  
 このブックマークレットは、開いている任意のガルーンイベントからiCalファイルを簡単に生成できます。
 
