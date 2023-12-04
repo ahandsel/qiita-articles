@@ -6,7 +6,7 @@ tags:
   - bookmarklet
   - garoon
   - icalendar
-private: true
+private: false
 updated_at: '2023-12-04T16:44:13+09:00'
 id: 18308ff3a6daad9029a4
 organization_url_name: null
