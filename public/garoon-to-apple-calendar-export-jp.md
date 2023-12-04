@@ -7,7 +7,7 @@ tags:
   - garoon
   - icalendar
 private: true
-updated_at: '2023-11-30T14:06:10+09:00'
+updated_at: '2023-12-04T16:32:07+09:00'
 id: 18308ff3a6daad9029a4
 organization_url_name: null
 slide: false
