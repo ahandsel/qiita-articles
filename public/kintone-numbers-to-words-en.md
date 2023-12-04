@@ -2,12 +2,12 @@
 title: Converting Numbers to Words in a Kintone App Using JavaScript
 tags:
   - JavaScript
-  - Kintone
-  - English
   - 初心者
+  - English
+  - kintone
 private: false
-updated_at:
-id:
+updated_at: '2023-12-04T22:59:59+09:00'
+id: bf30d8e14020a930d6bb
 organization_url_name: null
 slide: false
 ignorePublish: false
