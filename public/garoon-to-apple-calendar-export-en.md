@@ -14,6 +14,8 @@ slide: false
 ignorePublish: false
 ---
 
+![Demo Gif of Garoon to Apple Calendar Export](garoon-to-apple-bookmarklet-demo.gif)
+
 Copying and pasting event details from Garoon to Apple Calendar is tedious. This bookmarklet makes it easy to generate an iCal file from any open Garoon event.
 
 * 🇯🇵 日本語版: [ガルーン イベントを Apple カレンダーにエクスポートするブックマークレット](https://qiita.com/ahandsel/items/18308ff3a6daad9029a4)
