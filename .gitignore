@@ -3,3 +3,4 @@ node_modules
 #My Temp Stuff
 temp.md
 temp-*.md
+.DS_Store
