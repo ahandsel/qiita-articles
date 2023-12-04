@@ -6,7 +6,7 @@ tags:
   - English
   - kintone
 private: false
-updated_at: '2023-12-04T22:59:59+09:00'
+updated_at: '2023-12-04T23:02:00+09:00'
 id: bf30d8e14020a930d6bb
 organization_url_name: null
 slide: false
