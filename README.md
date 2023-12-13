@@ -1,6 +1,6 @@
 # My Qiita Articles
 
-This repo is used to manage my Qiita articles.
+This repo is used to manage my [Qiita articles](https://qiita.com/ahandsel).
 
 
 ## Qiita Writing Notes
