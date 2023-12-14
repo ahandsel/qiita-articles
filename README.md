@@ -13,6 +13,9 @@ This repo is used to manage my [Qiita articles](https://qiita.com/ahandsel).
 * Search: `https://qiita.com/tags/{tag}`
 * Example: `https://qiita.com/tags/javascript`
 
+### File name length
+
+The filenames cannot be too long.
 
 ## Repo Usage Notes
 
