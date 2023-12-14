@@ -6,12 +6,12 @@ tags:
   - English
   - bookmarklet
   - English
-private: true
+private: false
 updated_at:
 id:
 organization_url_name: null
 slide: false
-ignorePublish: false
+ignorePublish: true
 ---
 
 Ever get frustrated debugging a Kintone customization because you cannot remember the field codes for the app?
