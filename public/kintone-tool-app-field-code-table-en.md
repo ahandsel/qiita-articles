@@ -17,7 +17,7 @@ ignorePublish: true
 Ever get frustrated debugging a Kintone customization because you cannot remember the field codes for the app?
 I made a bookmarklet to generate a markdown table of field codes for a Kintone App.
 
-This article covers the installation & usage steps for the bookmarklet and how it works.
+This article covers the installation, usage, and how the bookmarklet works.
 
 
 ## TL;DR
@@ -48,7 +48,7 @@ TODO: Add demo gif
 ## Initial Setup - Add the Bookmarklet
 
 1. Copy the below `kintone-tool-app-field-code-table.js` code block
-1. Enter `@bookmarks` in the Chrome's address bar
+1. Enter `@bookmarks` in Chrome address bar
 1. Click on the `⋮` at the top-right-corner
 1. Click `Add new bookmark` & paste the code in the URL field
 
@@ -225,7 +225,7 @@ javascript: (() => {
 
 A bookmarklet is a small piece of JavaScript code that can be stored as a bookmark in a web browser. When you click on it, the code runs on the current web page, making extending the browser's functionality easy.
 
-It is a great way to build simple tools for Kintone without creating a full-blown Kintone customization. No need to upload it to the Kintone App, just save it to your browser as a bookmark. There are limitations to what you can do with a bookmarklet, such as no comments or external libraries, but it is a great way to get started with Kintone customization.
+It is a great way to build simple tools for Kintone without creating a full-blown Kintone customization. No need to upload it to the Kintone App, just save it to your browser as a bookmark. There are limitations to what you can do with a bookmarklet, such as no comments or using external libraries, but it is a great way to get started with Kintone customization.
 
 
 ### Overall Structure of the Bookmarklet
@@ -246,7 +246,7 @@ The `main` function acts as the entry point of the bookmarklet. It retrieves the
 
 #### Why call both APIs?
 
-The [Get Form Fields](https://kintone.dev/en/docs/kintone/rest-api/apps/get-form-fields/) API response is nearly all the information we need. It gets everything except for [Space field](https://get.kintone.help/k/en/id/040515.html)s! Since Blank Space fields are not technically a data-input field, they are not included in the Get Form Fields API response. The [Get Form Layout](https://kintone.dev/en/docs/kintone/rest-api/apps/get-form-layout/) API, on the other hand, does not include the field's labels (field name). It provides the field types and field codes. However, missing the field's label makes it difficult to identify the field. Thus, we need to call both APIs to get all the information we need to generate the Markdown table. The Get Form Fields API response is used to get the field's label, field type, and field code, while the Get Form Layout API response is used to get the Blank Space field's element ID.
+The [Get Form Fields](https://kintone.dev/en/docs/kintone/rest-api/apps/get-form-fields/) API response is nearly all the information we need. It gets everything except for [Space field](https://get.kintone.help/k/en/id/040515.html)s! Since Blank Space fields are not technically a data-input field, they are not included in the Get Form Fields API response. The [Get Form Layout](https://kintone.dev/en/docs/kintone/rest-api/apps/get-form-layout/) API, on the other hand, does not include the field's labels (field name). It provides the field types and field codes. However, missing the field's label makes it difficult to identify the field. Thus, we need to call both APIs to get all the information we need to generate the Markdown table. The Get Form Fields API response is used to get the field's label, field type, and field code, while the Get Form Layout API response is used to get the Blank Space fields' element ID.
 
 
 ### `mainFieldTable` Function & `subTablesTable` Helper Function
@@ -270,6 +270,6 @@ The `addMissingCellColumns`, `getColumnWidths`, `importTable`, `padCellsForOutpu
 
 ## Conclusion
 
-It was surprisingly complicated to gather all the information needed for a helpful reference table. It was pretty straightforward until I realized the Get Form Fields API response did not include the Blank Space field's element ID. But it was smooth sailing again once I figured out how to extract the element ID from the Get Form Layout API response. I am so glad I found alanwsmith's markdown_table_formatter project. Since this is a bookmarklet, I could not use any external libraries, so coding out the markdown table formatter would have been a pain. Thankfully, I found his project, and it was exactly what I needed. Thank you, alanwsmith!
+It was surprisingly complicated to gather all the information needed for a helpful reference table. It was pretty straightforward until I realized the Get Form Fields API response did not include the Blank Space field's element ID. However, it was smooth sailing again once I figured out how to extract the element ID from the Get Form Layout API response. I am so glad I found alanwsmith's markdown_table_formatter project. Since this is a bookmarklet, I could not use any external libraries, so coding out the markdown table formatter would have been a pain. Thankfully, I found his project, and it was exactly what I needed. Thank you, alanwsmith!
 
 I hope you found this article useful. If you have any questions or comments, please feel free to comment below or post on the [Kintone Developer Forum](https://forum.kintone.dev/) and tag me (`@genji`)!
