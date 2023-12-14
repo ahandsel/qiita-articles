@@ -24,7 +24,8 @@ This article covers the installation, usage, and how the bookmarklet works.
 
 [kintone-tool-app-field-code-table.js](https://github.com/ahandsel/articles/blob/master/kintone-tool-app-field-code-table/kintone-tool-app-field-code-table.js) is a bookmarklet that outputs a markdown table with the field name, field code, and field type for all fields in a Kintone App.
 
-Here is a quick demo of the bookmarklet in action:  
+Here is a quick demo of the bookmarklet in action:
+
 ![kintone-tool-app-field-code-table-demo.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/724593/314fd420-71ce-4840-367d-6baf5f58799c.gif)
 
 
