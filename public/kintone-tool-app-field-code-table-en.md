@@ -11,7 +11,7 @@ updated_at:
 id:
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 
 Ever get frustrated debugging a Kintone customization because you cannot remember the field codes for the app?
@@ -24,11 +24,8 @@ This article covers the installation, usage, and how the bookmarklet works.
 
 [kintone-tool-app-field-code-table.js](https://github.com/ahandsel/articles/kintone-tool-app-field-code-table/kintone-tool-app-field-code-table.js) is a bookmarklet that outputs a markdown table with the field name, field code, and field type for all fields in a Kintone App.
 
-Here is a quick demo of the bookmarklet in action:
-TODO: Add demo gif
 
-
-## Outline <!-- omit in toc -->
+## Outline
 
 * [TL;DR](#tldr)
 * [Initial Setup - Add the Bookmarklet](#initial-setup---add-the-bookmarklet)
