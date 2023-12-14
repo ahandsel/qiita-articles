@@ -7,8 +7,8 @@ tags:
   - English
   - kintone
 private: false
-updated_at: '2023-12-14T23:44:28+09:00'
-id:
+updated_at: '2023-12-14T23:52:43+09:00'
+id: 11d9c26dbf3b11888e79
 organization_url_name: null
 slide: false
 ignorePublish: false
