@@ -1,10 +1,10 @@
 ---
 title: Instagram URL Schemes
 tags:
-  - instagram
+  - Instagram
 private: false
-updated_at:
-id:
+updated_at: '2024-01-22T17:44:31+09:00'
+id: 9d668441152e00ba31ff
 organization_url_name: null
 slide: false
 ignorePublish: false
